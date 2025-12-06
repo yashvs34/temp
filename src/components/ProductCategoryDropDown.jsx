@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRecoilState } from "recoil";
 import { filterAtom } from "../atoms/filterAtom";
+import '../styles/productCategoryDropdown.css'
 
 function ProductCategoryDropdown() {
   const options = ["Beauty", "Electronics", "Clothing"]; // unique categories

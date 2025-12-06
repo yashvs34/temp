@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRecoilState } from "recoil";
 import { filterAtom } from "../atoms/filterAtom";
+import '../styles/tagDropdown.css'
 
 function TagDropdown() {
   const options = ["Organic", "Skincare", "Portable", "Wireless", "Gadgets", "Casual", "Fashion", "Unisex", "Makeup", "Cotton", "Smart", "Accessories", "Beauty", "Fragrance-free", "Formal"]; // unique categories

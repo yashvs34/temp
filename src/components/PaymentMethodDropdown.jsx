@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRecoilState } from "recoil";
 import { filterAtom } from "../atoms/filterAtom";
+import '../styles/paymentMethodDropdown.css'
 
 function PaymentMethodDropdown() {
   const options = [
