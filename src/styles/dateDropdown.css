@@ -1,6 +1,6 @@
 .date_dropdown {
     position: relative;
-    width: 120px;
+    width: 60px;
 }
 
 .date_dropdown_button {
@@ -17,7 +17,7 @@
     position: absolute;
     border: 1px solid #ccc;
     background: white;
-    width: 100%;
+    width: 180px;
     margin-top: 2px;
     z-index: 100;
     padding: 5px;
