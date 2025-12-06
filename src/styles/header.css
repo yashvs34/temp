@@ -1,9 +1,10 @@
 .header {
-    position: relative;
+    position: sticky;
     height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background: #fff;
 }
 
 .header_content {

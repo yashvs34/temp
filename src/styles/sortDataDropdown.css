@@ -1,0 +1,24 @@
+.sortData_dropdown {
+    position: relative;
+    width: 60px;
+}
+
+.sortData_dropdown_button {
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: none
+}
+
+.sortData_dropdown_container {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: white;
+    width: 180px;
+    margin-top: 2px;
+    z-index: 100;
+    padding: 5px;
+}
