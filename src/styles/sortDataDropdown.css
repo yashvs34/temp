@@ -17,6 +17,7 @@
     position: absolute;
     border: 1px solid #ccc;
     background: white;
+    right: 0;
     width: 180px;
     margin-top: 2px;
     z-index: 100;
