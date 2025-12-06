@@ -14,6 +14,9 @@
 }
 
 .age_dropdown_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     border: 1px solid #ccc;
     background: white;
