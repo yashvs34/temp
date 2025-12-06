@@ -1,7 +1,8 @@
 import '../styles/allTransactions.css'
+import TransactionsHeader from './TransactionsHeader'
 
 export default function AllTransactions () {
-    
+
 
     return (
         <div className='all_transactions_details'>
