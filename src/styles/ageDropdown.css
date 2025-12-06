@@ -7,7 +7,7 @@
     width: 100%;
     padding: 8px;
     cursor: pointer;
-    display: flex; 
+    display: flex;
     justify-content: center; 
     align-items: center; 
     border: none
@@ -15,7 +15,9 @@
 
 .age_dropdown_container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     align-items: center;
     position: absolute;
     border: 1px solid #ccc;
