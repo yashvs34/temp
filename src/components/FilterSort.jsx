@@ -5,6 +5,7 @@ import GenderDropdown from './GenderDropdown';
 import PaymentMethodDropdown from './PaymentMethodDropdown';
 import ProductCategoryDropdown from './ProductCategoryDropDown';
 import TagDropdown from './TagDropdown';
+import DateDropdown from './DateDropdown';
 
 export default function FilterSort () {
     return (
@@ -21,8 +22,8 @@ export default function FilterSort () {
               <ProductCategoryDropdown/>
               <TagDropdown/>
               <PaymentMethodDropdown/>
+              <DateDropdown/>
 
-              <div>Date</div>
             </div>
             <div>Sort By:</div>
           </div>
