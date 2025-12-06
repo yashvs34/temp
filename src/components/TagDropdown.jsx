@@ -44,7 +44,7 @@ function TagDropdown() {
       onKeyDown={handleKeyDown}
     >
       <button className="tag_dropdown_button" type="button" onClick={() => setOpen(!open)}>
-        {selected.length > 0 ? selected.join(", ") : "Tags"}
+        Tags
       </button>
 
       {open && (

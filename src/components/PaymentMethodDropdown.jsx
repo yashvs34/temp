@@ -46,7 +46,7 @@ function PaymentMethodDropdown() {
   return (
     <div className="payment_method_dropdown" ref={containerRef} tabIndex={0} onBlur={handleBlur} onKeyDown={handleKeyDown}>
       <button className="payment_method_dropdown_button" type="button" onClick={() => setOpen(!open)}>
-        {selected.length > 0 ? selected.join(", ") : "Select Payment Methods"}
+        Payment Methods
       </button>
 
       {open && (

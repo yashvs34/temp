@@ -34,7 +34,7 @@ function GenderDropdown() {
   return (
     <div className="gender_dropdown" ref={containerRef} tabIndex={0} onBlur={handleBlur}>
       <button className="gender_dropdown_button" type="button" onClick={() => setOpen(!open)} >
-        {selected.length > 0 ? selected.join(", ") : "Gender"}
+        Gender
       </button>
 
       {open && (

@@ -37,27 +37,16 @@ function ProductCategoryDropdown() {
   };
 
   return (
-    <div
-      className="product_category_dropdown"
-      ref={containerRef}
-      tabIndex={0}
-      onBlur={handleBlur}
-      onKeyDown={handleKeyDown}
-    >
+    <div className="product_category_dropdown" ref={containerRef} tabIndex={0} onBlur={handleBlur} onKeyDown={handleKeyDown}>
       <button className="product_category_dropdown_button" type="button" onClick={() => setOpen(!open)}>
-        {selected.length > 0 ? selected.join(", ") : "Product Category"}
+        Product Category
       </button>
 
       {open && (
         <div className="product_category_dropdown_container" >
           {options.map((option) => (
             <label key={option} style={{ display: "block", cursor: "pointer" }}>
-              <input
-                type="checkbox"
-                checked={selected.includes(option)}
-                onChange={() => toggleOption(option)}
-                style={{ marginRight: "5px" }}
-              />
+              <input type="checkbox" checked={selected.includes(option)} onChange={() => toggleOption(option)} style={{ marginRight: "5px" }}/>
               {option}
             </label>
           ))}

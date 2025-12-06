@@ -40,7 +40,7 @@ function CustomerRegionDropdown() {
     <div
       className="customer_region_dropdown" ref={containerRef} tabIndex={0} onBlur={handleBlur} onKeyDown={handleKeyDown}>
       <button className="customer_region_dropdown_button" type="button" onClick={() => setOpen(!open)}>
-        {selected.length > 0 ? selected.join(", ") : "Customer Regions"}
+        Customer Regions
       </button>
 
       {open && (

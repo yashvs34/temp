@@ -1,4 +1,5 @@
 import '../styles/filterSort.css'
+import AgeDropdown from './AgeDropdown';
 import CustomerRegionDropdown from './CustomerRegionDropDown';
 import GenderDropdown from './GenderDropdown';
 import PaymentMethodDropdown from './PaymentMethodDropdown';
@@ -16,11 +17,7 @@ export default function FilterSort () {
 
               <CustomerRegionDropdown/>
               <GenderDropdown/>
-
-              <select name='Age Range' id='Age Range'>
-                <option value="Age">Age</option>
-              </select>
-
+              <AgeDropdown/>
               <ProductCategoryDropdown/>
               <TagDropdown/>
               <PaymentMethodDropdown/>
